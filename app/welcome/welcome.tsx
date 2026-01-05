@@ -1,11 +1,15 @@
+import DogBreeds from "~/Components/DogBreeds";
 import RandomDog from "../Components/RandomDog";
 import logoDark from "./logo-dark.svg";
 import logoLight from "./logo-light.svg";
+import BuscadorPokemon from "~/Components/BuscadorPokemon";
 
 export function Welcome() {
   return (
     <>
       <RandomDog></RandomDog>
+      <DogBreeds></DogBreeds> 
+      <BuscadorPokemon></BuscadorPokemon>
     </>
   );
 }
