@@ -3,6 +3,9 @@ import RandomDog from "../Components/RandomDog";
 import logoDark from "./logo-dark.svg";
 import logoLight from "./logo-light.svg";
 import BuscadorPokemon from "~/Components/BuscadorPokemon";
+import GaleriaPokemon from "~/Components/GaleriaPokemon";
+import ListaRazas from "~/Components/ListaRazas";
+import PaginacionPokemon from "~/Components/PaginacionPokemon";
 
 export function Welcome() {
   return (
@@ -10,6 +13,9 @@ export function Welcome() {
       <RandomDog></RandomDog>
       <DogBreeds></DogBreeds> 
       <BuscadorPokemon></BuscadorPokemon>
+      <GaleriaPokemon></GaleriaPokemon>
+      <ListaRazas></ListaRazas>
+      <PaginacionPokemon></PaginacionPokemon>
     </>
   );
 }
